@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specfold"
+version = "1.0.0"
+description = "SpecFold: folding multi-branch redundancy for faster speculative decoding in diffusion LLMs"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.6",
+    "triton>=3.2",
+    "transformers>=4.57,<5",
+    "huggingface_hub",
+    "datasets",
+    "accelerate",
+    "lm_eval[math]==0.4.12",
+    "evalplus==0.3.1",
+    "numpy",
+    "tqdm",
+    "requests",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["specfold*"]

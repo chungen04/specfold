@@ -1,0 +1,15 @@
+# Tested versions (Python 3.13, CUDA 13, H100/A100)
+torch==2.12.0
+triton==3.7.0
+transformers==4.57.3
+tokenizers==0.22.2
+safetensors==0.7.0
+huggingface_hub==0.36.2
+hf-xet==1.5.0
+datasets==4.8.5
+accelerate==1.13.0
+lm_eval[math]==0.4.12
+evalplus==0.3.1
+numpy==2.4.5
+tqdm==4.67.3
+requests==2.34.2
