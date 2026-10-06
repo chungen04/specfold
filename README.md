@@ -4,7 +4,7 @@ This repository contains the implementation of the paper, *SpecFold: Folding Mul
 
 ## News
 
-PLACEHOLDER
+* [2026.10.03] Initial release.
 
 ## Key Features and Methodology
 
