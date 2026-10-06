@@ -1,6 +1,6 @@
 # SpecFold
 
-This repository contains the implementation of the paper, *SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models*. Specfold targets the forward and verification step cost in multi-branch speculative Diffusion Language Models (DLLM) decoding with an algorithm-system co-design. Across two DLLM families, five models, and five standard benchmarks, SpecFold achieves up to $1.64\times$ decoding TPS over Spiffy and up to $1.99\times$ over vanilla decoding, unlocking the effective speedup with speculative decoding in DLLM.
+This repository contains the implementation of the paper, *SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models* (https://arxiv.org/abs/2610.04875). Specfold targets the forward and verification step cost in multi-branch speculative Diffusion Language Models (DLLM) decoding with an algorithm-system co-design. Across two DLLM families, five models, and five standard benchmarks, SpecFold achieves up to $1.64\times$ decoding TPS over Spiffy and up to $1.99\times$ over vanilla decoding, unlocking the effective speedup with speculative decoding in DLLM.
 
 ## News
 
@@ -92,7 +92,17 @@ specfold/
 
 If you find this work useful, please cite our paper:
 
-PLACEHOLDER
+```
+@misc{ho2026specfold,
+      title={SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models}, 
+      author={Chung-En Ho and Weiyu Sun and Cheng-Jhih Shih and He Li and Yong Liu and Yingyan Celine Lin},
+      year={2026},
+      eprint={2610.04875},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2610.04875}, 
+}
+```
 
 ## License
 
